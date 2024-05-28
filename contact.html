@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="contact us.png" alt="contact us image" width="600">
+        <nav>
+            <ul>
+                <li><a href="Main.html">Home</a></li>
+                <li><a href="Jacksonville.html">Jacksonville</a></li>
+                <li><a href="Orlando.html">Orlando</a></li>
+                <li><a href="Tallahassee.html">Talahassee</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="placeholder-box">
+        <h2>Let's Start a Conversation</h2>
+        <form id="contactForm" onsubmit="return validateEmails()">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="confirmEmail">Confirm Email:</label>
+            <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Confirm your email address" required>
+            
+            <span id="emailError" style="color: red;"></span>
+
+            <br></br>
+
+            <label for="question">What's on your mind?</label>
+            <textarea id="question" name="question" placeholder="Type your question/concerns here"></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <aside>
+        <h2>Follow us on Social Media</h2>
+            <p>
+                <ul>
+                    <ul><a href="https://www.facebook.com/" target="_blank">
+                        <img src="fb.png" alt="facebook icon" width="40"></a></ul>
+                    <ul><a href="https://www.twitter.com/" target="_blank">
+                        <img src="twitter.jpg" alt="twitter icon" width="40"></a></ul>
+                    <ul><a href="https://www.instagram.com/" target="_blank">
+                        <img src="instagram.png" alt="instagram icon" width="40"></a></ul>
+                </ul>
+            </p>
+    </aside>
+
+
+
+    <footer>
+        <p>&copy; 2024 Florida. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
